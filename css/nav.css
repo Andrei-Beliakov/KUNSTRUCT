@@ -20,4 +20,18 @@
 .nav__links {
   display: flex;
   justify-content: space-between;
+  width: 411px;
+  /* gap: 49px; */
+}
+
+.nav__link {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #48555b;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #00a4e5;
 }

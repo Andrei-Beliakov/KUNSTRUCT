@@ -1,0 +1,30 @@
+.about {
+  padding: 48px 0 127px;
+}
+
+.about__container {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about__title {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.31px;
+  text-align: center;
+  position: relative;
+}
+
+.about__title::after {
+  content: "";
+  display: block;
+  background-color: #00a4e5;
+  width: 50px;
+  height: 2px;
+  width: 50px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -11px;
+}
