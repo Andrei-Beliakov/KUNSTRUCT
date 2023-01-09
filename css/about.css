@@ -1,11 +1,13 @@
 .about {
   padding: 48px 0 127px;
+  font-family: "Open Sans Regular", sans-serif;
 }
 
 .about__container {
   max-width: 940px;
   margin: 0 auto;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -15,6 +17,7 @@
   letter-spacing: 2.31px;
   text-align: center;
   position: relative;
+  margin-bottom: 88px;
 }
 
 .about__title::after {
@@ -27,4 +30,49 @@
   margin: 0 auto;
   position: relative;
   bottom: -11px;
+}
+
+.container__text {
+  max-width: 405px;
+}
+
+.text__subtitle {
+  font-family: "Open Sans Bold";
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.17px;
+}
+
+.text__description {
+  letter-spacing: 0.191px;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+span {
+  color: #16ace8;
+}
+
+.container__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+}
+
+.card__title {
+  font-family: "Open Sans Bold";
+  max-width: 108px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  letter-spacing: 0.19px;
 }
