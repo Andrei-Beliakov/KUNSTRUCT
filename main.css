@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+a:hover {
+  transition: 0.7s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1044px) {
+  .container {
+    max-width: 90%;
+  }
+}
