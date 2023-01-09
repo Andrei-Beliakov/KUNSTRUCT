@@ -5,6 +5,10 @@
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
+  color: #48555b;
+  font-size: 13px;
+  line-height: 23px;
 }
 
 a:hover {
@@ -22,15 +26,4 @@ html {
 
 img {
   display: block;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-@media (max-width: 1044px) {
-  .container {
-    max-width: 90%;
-  }
 }
