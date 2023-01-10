@@ -1,6 +1,11 @@
 .nav {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.96);
+  z-index: 10;
 }
 
 .nav__container {

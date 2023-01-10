@@ -5,10 +5,11 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans Regular", sans-serif;
   color: #48555b;
   font-size: 13px;
   line-height: 23px;
+  letter-spacing: 0.191px;
 }
 
 a:hover {
@@ -26,4 +27,26 @@ html {
 
 img {
   display: block;
+}
+
+.konstruct_button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  font-family: "Open Sans Bold";
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background: #00a4e5;
+  border: none;
+  transition: 0.7s;
+}
+
+.konstruct_button:hover {
+  background: #005272;
+  transition: 0.7s;
 }

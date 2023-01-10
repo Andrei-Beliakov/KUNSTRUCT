@@ -1,0 +1,59 @@
+.services {
+  margin-bottom: 115px;
+}
+
+.services__title {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.31px;
+  position: relative;
+  display: block;
+  width: 198px;
+}
+
+.services__title::after {
+  content: "";
+  display: block;
+  background-color: #00a4e5;
+  width: 50px;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  bottom: -11px;
+}
+
+.services__description {
+  font-family: "Open Sans Regular";
+  max-width: 405px;
+  margin: 0 32px 0 155px;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.services__top {
+  display: flex;
+  margin: 0 auto 78px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 27px;
+}
+
+.services__card {
+  border: 1px solid #e6e6e6;
+  padding: 38px 22px 39px 22px;
+}
+
+.services__cardtitle {
+  font-family: "Open Sans Bold";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.43px;
+  max-width: 250px;
+  margin: 25px 0 13px;
+  display: block;
+}
