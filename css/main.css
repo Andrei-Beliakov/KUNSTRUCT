@@ -30,8 +30,7 @@ img {
 }
 
 .konstruct_button {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
   width: 150px;
   height: 40px;
   font-family: "Open Sans Bold";

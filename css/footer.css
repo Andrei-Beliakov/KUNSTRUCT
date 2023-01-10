@@ -1,0 +1,36 @@
+.footer {
+  background-color: #171819;
+  padding-bottom: 23px;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__title {
+  color: #ffffff;
+  display: block;
+  font-family: "Open Sans Bold";
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.85px;
+  margin-right: 70px;
+}
+
+.footer__copyright {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans Regular";
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.85px;
+}
+.footer__input {
+  width: 250px;
+  height: 40px;
+  padding-left: 16px;
+}

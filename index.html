@@ -53,7 +53,7 @@
               Founded in 2011 by John Mathew Smith,&nbsp;<span>Konstruct</span>
               has become the number&nbsp;one&nbsp;construction&nbsp;management
             </h3>
-            <p class="text__description">
+            <p >
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -99,7 +99,7 @@
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
-            <button class="konstruct_button">ALL SERVICES</button>
+            <button class="konstruct_button" type="submit">ALL SERVICES</button>
           </div>
           <!--КАРТОЧКИ SERVICES -->
           <div class="services__cards">
@@ -121,9 +121,28 @@
         </div>
       </section>
       <!-- СЕКЦИЯ WORK -->
-      <section id="WORK"></section>
+      <section id="WORK" class="work">
+        <div class="container">
+          <h3 class="work__title">Want to build something amazing?</h3>
+          <button class="konstruct_button getintouch" type="submit">GET IN TOUCH</button>
+
+        </div>
+      </section>
     </main>
     <!-- ПОДВАЛ С КОНТАКТАМИ -->
-    <footer id="CONTACT" class="footer"></footer>
+    <footer id="CONTACT" class="footer">
+      <div class="container">
+      <div class="footer__flex">
+        <h3 class="footer__title">Newsletter Signup</h3>
+        <form  >
+        <label for="mail">
+          <input class="footer__input" id="mail" type="email" placeholder="test@youremail.com">
+        </label></form>
+         <button class="konstruct_button" type="submit">SIGNUP</button>
+          
+      </div>
+      <p class="footer__copyright">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+      </div>
+    </footer>
   </body>
 </html>

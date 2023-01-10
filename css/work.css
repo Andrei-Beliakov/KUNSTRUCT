@@ -1,0 +1,23 @@
+.work {
+  padding: 120px 0 231px;
+  text-align: center;
+
+  background-image: url("../images/work_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.work__title {
+  display: block;
+  margin: 0 auto 35px;
+  font-family: "Open Sans Bold";
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  max-width: 350px;
+}
+
+.getintouch {
+  margin: 0 auto;
+}
