@@ -46,6 +46,7 @@
 .services__card {
   border: 1px solid #e6e6e6;
   padding: 38px 22px 39px 22px;
+  max-width: 295px;
 }
 
 .services__cardtitle {
