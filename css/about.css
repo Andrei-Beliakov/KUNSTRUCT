@@ -1,6 +1,7 @@
 .about {
   padding: 48px 0 127px;
   font-family: "Open Sans Regular", sans-serif;
+  scroll-margin-top: 65px;
 }
 
 .about__container {
